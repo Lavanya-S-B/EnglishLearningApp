@@ -13,11 +13,6 @@ The application focuses on **four core language skills**:
 
 Users can practice English using flashcards, reading comprehension tasks, listening activities, and quizzes.
 
-The application structure and learning approach were inspired by the **British Council LearnEnglish platform**.
-
-Reference:
-https://learnenglish.britishcouncil.org/
-
 ---
 
 # 🚀 Features
@@ -133,8 +128,6 @@ Navigation structure:
 
 RootNavigator
 ↓
-DrawerNavigator
-↓
 TabNavigator
 ↓
 Feature Stacks
@@ -195,21 +188,7 @@ Start the project:
 npx expo start
 ```
 
----
-
-# 🌍 Public Access Using Expo Tunnel
-
-To generate a public link:
-
-```
-npx expo start --tunnel
-```
-
-Expo will generate a public URL which can be shared with testers or mentors.
-
-The application can be opened using the **Expo Go mobile app**.
-
----
+--
 
 # 📊 Future Improvements
 
