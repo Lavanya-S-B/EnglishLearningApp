@@ -1,4 +1,4 @@
-# 📚 English Learning Mobile Application
+# English Learning Mobile Application
 
 ## Overview
 
@@ -6,18 +6,18 @@ This project is a **React Native (Expo) based English Learning Application** des
 
 The application focuses on **four core language skills**:
 
-* 📖 Reading
-* 🎧 Listening
-* 🧠 Vocabulary
-* ✍️ Grammar
+*  Reading
+*  Listening
+*  Vocabulary
+*  Grammar
 
 Users can practice English using flashcards, reading comprehension tasks, listening activities, and quizzes.
 
 ---
 
-# 🚀 Features
+# Features
 
-## 📖 Reading Module
+##  Reading Module
 
 * Paragraph-based reading lessons
 * Multiple choice comprehension questions
@@ -25,14 +25,14 @@ Users can practice English using flashcards, reading comprehension tasks, listen
 * Lesson-based learning system
 * Progress tracking
 
-## 🎧 Listening Module
+##  Listening Module
 
 * Real audio listening tasks
 * Transcript support
 * Comprehension questions
 * Swipe-based question navigation
 
-## 🧠 Vocabulary Module
+##  Vocabulary Module
 
 * Flashcard learning system
 * Word meaning and example sentences
@@ -40,7 +40,7 @@ Users can practice English using flashcards, reading comprehension tasks, listen
 * Card flipping interaction
 * Swipe between words
 
-## ✍️ Grammar Module
+##  Grammar Module
 
 * Grammar lessons
 * Practice exercises
@@ -48,7 +48,7 @@ Users can practice English using flashcards, reading comprehension tasks, listen
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 ## Frontend Framework
 
@@ -80,7 +80,7 @@ Navigation types used:
 
 ---
 
-# 📁 Project Folder Structure
+#  Project Folder Structure
 
 ```
 project src
@@ -110,40 +110,46 @@ project src
 │   │   ├── ReadingScreen.js
 │   │   ├── ReadingParagraphScreen.js
 │   │   ├── ListeningScreen.js
-│   │   ├── ListeningTaskScreen.js
-│   │   └── SpeakingScreen.js
+│   │   |__ ListeningTaskScreen.js
+│   │  
 │   │
 │   └── Vocabulary
 │       ├── FlashcardScreen.js
 │       ├── VocabularyLessonScreen.js
-│       ├── VocabularyTopicsScreen.js
-│       └── ExerciseScreen.js
+│       └── VocabularyTopicsScreen.js
 ```
 
 ---
 
-# 📱 Application Architecture
+#  Application Architecture
 
 Navigation structure:
 
 RootNavigator
+    
 ↓
+    
 TabNavigator
+    
 ↓
+    
 Feature Stacks
 
 Example:
 
 SkillsStack
+
 → SkillsHomeScreen
+
 → ReadingScreen
+
 → ReadingParagraphScreen
 
 This modular structure helps maintain **clean and scalable architecture**.
 
 ---
 
-# 🔊 Audio Features
+#  Audio Features
 
 The application includes audio support for both listening exercises and pronunciation.
 
@@ -160,7 +166,7 @@ Users can listen to:
 
 ---
 
-# 🎯 Learning Methods Used
+#  Learning Methods Used
 
 The application uses modern language learning techniques such as:
 
@@ -170,11 +176,18 @@ The application uses modern language learning techniques such as:
 * Audio comprehension
 * Swipe-based navigation
 
-These methods are widely used in platforms like **Duolingo and British Council LearnEnglish**.
+---
+
+
+ # Demo Video
+
+Watch the application demo:
+
+https://drive.google.com/file/d/19t_Oh4EMFln7psqTZXvc4TjuhDaV-yCv/view?usp=drive_link
 
 ---
 
-# 🌐 Running the Application
+# Running the Application
 
 Install dependencies:
 
@@ -190,7 +203,7 @@ npx expo start
 
 --
 
-# 📊 Future Improvements
+#  Future Improvements
 
 Possible enhancements include:
 
@@ -213,10 +226,8 @@ https://learnenglish.britishcouncil.org/
 
 The design of skill-based lessons and exercises influenced the architecture of this application.
 
----
 
-# 👨‍💻 Author
 
-Developed as part of an English learning application project using React Native and Expo.
+
 
 
