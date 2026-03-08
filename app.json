@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "567468e6-151d-435f-920a-baa265f716bb"
+      }
+    },
+    "owner": "lavanya_sb"
   }
 }
